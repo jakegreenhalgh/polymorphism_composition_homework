@@ -46,10 +46,16 @@ A unicycle class, that contains a wheel class. The Unicycle cannot exist without
 
 Give a difference between composition and aggregation?
 
-Aggregation is similar to composition except that the objects can exist independently from the object which contains them.
+Conpostion is when the object is destroyed all of its behaviours are also destroyed. Aggregation iis different in that the objects can exist independently from the object which contains them.
 
 What is/are the advantage(s) of using composition/aggregation?
 
+There is great code reusability.
+
 When using composition, when an object is destroyed, what happens to all the objects it is composed of?
 
+They are also destroyed.
+
 When using aggregation, when an object is destroyed, what happens to all the objects it is composed of?
+
+They continue to exist.
